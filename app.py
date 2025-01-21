@@ -1,40 +1,55 @@
 from flask import Flask, render_template, request, jsonify
 import pandas as pd
+import json
 
 app = Flask(__name__)
 
 def load_games():
     try:
-        # Excel dosyasını oku
-        excel_file = 'xbox_games.xlsx'
-        xls = pd.ExcelFile(excel_file)
-        all_games = []
-        
-        # Her sayfayı ayrı ayrı oku (Paket sayfaları)
-        for sheet_name in xls.sheet_names:
-            if sheet_name.lower() != 'tüm paketler':
-                try:
-                    package_num = int(sheet_name.split()[-1])  # "Paket 1" -> 1
-                    df = pd.read_excel(excel_file, sheet_name=sheet_name)
-                    df['Paket'] = package_num
-                    all_games.append(df)
-                except:
-                    continue
-        
-        if all_games:
-            # Tüm oyunları birleştir ve alfabetik sırala
-            combined_df = pd.concat(all_games, ignore_index=True)
-            combined_df = combined_df.sort_values(['OyunAdı'])  # Oyun adına göre sırala
-            games_dict = combined_df.to_dict('records')
+        # Önce JSON dosyasını okumayı dene
+        try:
+            with open('XboxOyunları.json', 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                games = data['games']
+                return {
+                    'games': games,
+                    'all_packages': sorted(games, key=lambda x: x['OyunAdı'])
+                }
+        except:
+            # JSON dosyası yoksa veya okuma hatası varsa Excel'den oku
+            excel_file = 'xbox oyunları.xlsx'
+            xls = pd.ExcelFile(excel_file)
+            all_games = []
             
-            # Tüm paketler tablosu için oyunları alfabetik sırala
-            all_packages = sorted(games_dict, key=lambda x: x['OyunAdı'])
+            # Her sayfayı ayrı ayrı oku (Paket sayfaları)
+            for sheet_name in xls.sheet_names:
+                if sheet_name.lower() != 'tüm paketler':
+                    try:
+                        package_num = int(sheet_name.split()[-1])
+                        df = pd.read_excel(excel_file, sheet_name=sheet_name)
+                        df['Paket'] = package_num
+                        all_games.append(df)
+                    except:
+                        continue
             
-            return {
-                'games': games_dict,
-                'all_packages': all_packages
-            }
-        return {'games': [], 'all_packages': []}
+            if all_games:
+                # Tüm oyunları birleştir ve alfabetik sırala
+                combined_df = pd.concat(all_games, ignore_index=True)
+                combined_df = combined_df.sort_values(['OyunAdı'])
+                
+                # NaN değerleri None ile değiştir
+                games_dict = combined_df.where(pd.notnull(combined_df), None).to_dict('records')
+                
+                # JSON dosyasını oluştur
+                with open('XboxOyunları.json', 'w', encoding='utf-8') as f:
+                    json.dump({'games': games_dict}, f, ensure_ascii=False, indent=2)
+                
+                return {
+                    'games': games_dict,
+                    'all_packages': sorted(games_dict, key=lambda x: x['OyunAdı'])
+                }
+            
+            return {'games': [], 'all_packages': []}
     
     except Exception as e:
         print(f"Hata oluştu: {e}")
