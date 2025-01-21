@@ -202,12 +202,14 @@ header {
     padding: 20px;
     margin-top: 20px;
     overflow-x: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .all-packages-table table {
     width: 100%;
-    border-collapse: collapse;
-    min-width: 800px;
+    border-collapse: separate;
+    border-spacing: 0;
+    min-width: 300px;
 }
 
 .all-packages-table th,
@@ -220,6 +222,34 @@ header {
 .all-packages-table th {
     color: var(--xbox-green);
     font-weight: 600;
+    position: sticky;
+    top: 0;
+    background: var(--xbox-dark-gray);
+    z-index: 10;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.all-packages-table tr {
+    transition: background-color 0.3s ease;
+}
+
+.all-packages-table tr:hover {
+    background: rgba(16, 124, 16, 0.1);
+}
+
+.all-packages-table td {
+    transition: all 0.3s ease;
+}
+
+.package-number {
+    color: var(--xbox-green);
+    font-weight: 500;
+    background: rgba(16, 124, 16, 0.1);
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
 }
 
 .table-info {
@@ -315,6 +345,54 @@ header {
 
     .video-icon {
         font-size: 14px;
+    }
+
+    .all-packages-table {
+        padding: 10px;
+        margin: 10px -10px;
+        border-radius: 0;
+    }
+    
+    .all-packages-table table {
+        display: block;
+    }
+    
+    .all-packages-table thead {
+        display: none;
+    }
+    
+    .all-packages-table tbody {
+        display: block;
+    }
+    
+    .all-packages-table tr {
+        display: block;
+        padding: 15px;
+        margin-bottom: 10px;
+        background: rgba(45, 45, 45, 0.5);
+        border-radius: 8px;
+        border: 1px solid var(--xbox-light-gray);
+    }
+    
+    .all-packages-table td {
+        display: block;
+        padding: 5px 0;
+        border: none;
+        font-size: 14px;
+    }
+    
+    .all-packages-table td:first-child {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+    
+    .all-packages-table td:last-child {
+        margin-top: 8px;
+    }
+    
+    .package-number {
+        font-size: 12px;
     }
 }
 
