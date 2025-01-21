@@ -1,0 +1,363 @@
+:root {
+    --xbox-green: #107C10;
+    --xbox-black: #0F0F0F;
+    --xbox-dark-gray: #2D2D2D;
+    --xbox-light-gray: #404040;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: var(--xbox-black);
+    color: white;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+    background-color: rgba(16, 124, 16, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: var(--xbox-dark-gray);
+    border: 2px solid var(--xbox-light-gray);
+    border-radius: 5px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.search-bar input:focus {
+    outline: none;
+    border-color: var(--xbox-green);
+    box-shadow: 0 0 10px rgba(16, 124, 16, 0.3);
+}
+
+.package-tabs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tab {
+    padding: 12px 24px;
+    border: none;
+    background-color: var(--xbox-dark-gray);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.tab:hover {
+    background-color: var(--xbox-light-gray);
+}
+
+.tab.active {
+    background-color: var(--xbox-green);
+    color: white;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.game-card {
+    background: var(--xbox-dark-gray);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(16, 124, 16, 0.2);
+}
+
+.game-image {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.game-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.video-link {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(16, 124, 16, 0.8);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.video-link:hover {
+    background: var(--xbox-green);
+    transform: scale(1.1);
+}
+
+.video-icon {
+    color: white;
+    font-size: 20px;
+}
+
+.game-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white;
+}
+
+.game-info-container {
+    margin: 10px 0;
+}
+
+.info-toggle {
+    background: var(--xbox-green);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-toggle::after {
+    content: '▼';
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+.info-toggle.active::after {
+    transform: rotate(180deg);
+}
+
+.game-info {
+    display: none;
+    padding: 15px;
+    margin-top: 10px;
+    background: rgba(16, 124, 16, 0.1);
+    border-radius: 4px;
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 1.6;
+    white-space: pre-line;
+}
+
+.game-info.active {
+    display: block;
+}
+
+.package-info {
+    display: inline-block;
+    padding: 5px 10px;
+    background: rgba(16, 124, 16, 0.1);
+    border-radius: 4px;
+    color: var(--xbox-green);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.all-packages-table {
+    background: var(--xbox-dark-gray);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.all-packages-table table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px;
+}
+
+.all-packages-table th,
+.all-packages-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--xbox-light-gray);
+}
+
+.all-packages-table th {
+    color: var(--xbox-green);
+    font-weight: 600;
+}
+
+.table-info {
+    position: relative;
+    cursor: pointer;
+}
+
+.table-info .full-text {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: var(--xbox-dark-gray);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 1000;
+    width: 400px;
+    white-space: pre-line;
+}
+
+.video-link-table {
+    color: var(--xbox-green);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.video-link-table:hover {
+    color: white;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.game-card {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Mobil cihazlar için responsive tasarım */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .games-grid {
+        grid-template-columns: repeat(2, 1fr); /* Zorunlu 2 sütun */
+        gap: 10px;
+    }
+
+    .game-card {
+        padding: 8px;
+    }
+
+    .game-card img {
+        height: 150px; /* Daha küçük resimler */
+    }
+
+    .game-card h3 {
+        font-size: 14px;
+        margin: 6px 0;
+    }
+
+    .package-info {
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+
+    .info-toggle {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .game-info {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .package-tabs {
+        gap: 5px;
+    }
+
+    .tab {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .video-link {
+        width: 30px;
+        height: 30px;
+    }
+
+    .video-icon {
+        font-size: 14px;
+    }
+}
+
+/* Çok küçük ekranlar için */
+@media screen and (max-width: 375px) {
+    .games-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .game-card img {
+        height: 120px;
+    }
+
+    .game-card {
+        padding: 6px;
+    }
+
+    .game-card h3 {
+        font-size: 12px;
+    }
+}
+
+/* Tablet boyutu için */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .games-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .game-card img {
+        height: 180px;
+    }
+}
+
+/* Büyük ekranlar için */
+@media screen and (min-width: 1025px) {
+    .games-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .game-card img {
+        height: 250px;
+    }
+} 
