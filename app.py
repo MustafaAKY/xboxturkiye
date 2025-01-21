@@ -21,19 +21,17 @@ def load_games():
                 except:
                     continue
         
-        # Tüm paketler sayfasını oku
-        try:
-            all_packages_df = pd.read_excel(excel_file, sheet_name='Tüm Paketler')
-            all_packages = all_packages_df.to_dict('records')
-        except:
-            all_packages = []
-        
         if all_games:
             # Tüm oyunları birleştir ve alfabetik sırala
             combined_df = pd.concat(all_games, ignore_index=True)
-            combined_df = combined_df.sort_values('OyunAdı')
+            combined_df = combined_df.sort_values(['OyunAdı'])  # Oyun adına göre sırala
+            games_dict = combined_df.to_dict('records')
+            
+            # Tüm paketler tablosu için oyunları alfabetik sırala
+            all_packages = sorted(games_dict, key=lambda x: x['OyunAdı'])
+            
             return {
-                'games': combined_df.to_dict('records'),
+                'games': games_dict,
                 'all_packages': all_packages
             }
         return {'games': [], 'all_packages': []}
