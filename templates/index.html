@@ -45,32 +45,13 @@
                 <tr>
                     <th>Oyun Adı</th>
                     <th>Paket</th>
-                    <th>Açıklama</th>
-                    {% if all_packages and all_packages[0].video %}
-                    <th>Video</th>
-                    {% endif %}
                 </tr>
             </thead>
             <tbody>
                 {% for game in all_packages %}
                 <tr>
                     <td>{{ game.OyunAdı }}</td>
-                    <td>{{ game.Paket }}</td>
-                    <td class="table-info">
-                        {% if game.bilgi %}
-                        <div class="preview-text">
-                            {{ game.bilgi[:100] }}{% if game.bilgi|length > 100 %}...{% endif %}
-                        </div>
-                        <div class="full-text">{{ game.bilgi }}</div>
-                        {% endif %}
-                    </td>
-                    {% if game.video %}
-                    <td>
-                        <a href="{{ game.video }}" target="_blank" class="video-link-table">
-                            <span class="video-icon">▶ İzle</span>
-                        </a>
-                    </td>
-                    {% endif %}
+                    <td><span class="package-number">Paket {{ game.Paket }}</span></td>
                 </tr>
                 {% endfor %}
             </tbody>
