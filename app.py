@@ -6,7 +6,7 @@ app = Flask(__name__)
 def load_games():
     try:
         # Excel dosyasını oku
-        excel_file = 'xbox oyunları.xlsx'
+        excel_file = 'xbox_games.xlsx'
         xls = pd.ExcelFile(excel_file)
         all_games = []
         
