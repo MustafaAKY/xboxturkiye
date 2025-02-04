@@ -1521,16 +1521,6 @@
       "Paket": 6
     },
     {
-      "OyunAdı": "Kingdom Come: Deliverance II",
-      "ResimURL": "https://m.media-amazon.com/images/I/81bjnWKEERL.jpg",
-      "video": "https://www.youtube.com/watch?v=R48DEEjyS5k",
-      "bilgi": "Orta Çağ’da geçen bir açık dünya RPG oyunudur. Oyunun hikayesi, 15. yüzyılda Bohemya Krallığı'nda geçiyor. İlk oyunun devamı niteliğindeki bu oyun, yine tarihi gerçeklere dayanan bir kurguyla karşımıza çıkıyor. Ana karakter olan Henry, bir demircinin oğlu olarak, iç savaşın ortasında kendini bulur. Ailesi ve köyü bir isyan sırasında saldırıya uğrar ve Henry bu trajik olayın ardından intikam almak için yola çıkar.",
-      "Çıkış tarihi": null,
-      "Unnamed: 5": NaN,
-      "Unnamed: 6": null,
-      "Paket": 8
-    },
-    {
       "OyunAdı": "Kingdom Hearts 3",
       "ResimURL": "https://m.media-amazon.com/images/I/91RxlWWPzmL._AC_UF894,1000_QL80_.jpg",
       "video": "https://www.youtube.com/watch?v=bbyJU7xZDMg",
@@ -3369,6 +3359,207 @@
       "Unnamed: 5": NaN,
       "Unnamed: 6": null,
       "Paket": 5
-    }
+    },
+      {
+    "OyunAdı": "The Thaumaturge",
+    "ResimURL": "https://m.media-amazon.com/images/I/81sQTBjSySL._AC_UF1000,1000_QL80_.jpg",
+    "video": "https://youtu.be/rUZx0_WIMcI",
+    "bilgi": "The Thaumaturge, mistik güçlere sahip kahramanlarla epik maceralara atıldığınız bir RPG oyunudur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Beyond Hanwell",
+    "ResimURL": "https://cdn.cdkeys.com/700x700/media/catalog/product/b/e/beyond_hanwell_1_1_1.png",
+    "video": "https://www.youtube.com/watch?v=o3gzRJQaFLY",
+    "bilgi": "Beyond Hanwell, gizemli olaylarla dolu karanlık bir atmosferde geçen korku-macera türünde bir oyundur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Harry Potter: Quidditch Champions",
+    "ResimURL": "https://m.media-amazon.com/images/I/71A6UgQo7kL._SL1400_.jpg",
+    "video": "https://www.youtube.com/watch?v=b1JCXVQw3pw",
+    "bilgi": "Harry Potter: Quidditch Champions, sihirli evrende geçen ve Quidditch yarışlarının ön planda olduğu aksiyon dolu bir spor oyunudur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Predator: Hunting Grounds",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Predator: Hunting Grounds, gerilim dolu av sahalarında çok oyunculu aksiyon deneyimi sunan bir oyundur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Conan Exiles",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Conan Exiles, hayatta kalma ve açık dünya keşfi odaklı, strateji unsurları barındıran aksiyon-macera oyunudur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Gungrave G.O.R.E",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Gungrave G.O.R.E, yoğun aksiyon ve nişancı mekaniklerini ön plana çıkaran hızlı tempolu bir oyundur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "TRANSFORMERS: Galactic Trials",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "TRANSFORMERS: Galactic Trials, dev robotların mücadelesini konu alan aksiyon dolu bir macera oyunudur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Nikoderiko: The Magical World",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Nikoderiko: The Magical World, büyülü bir dünyada geçen platform ve keşif odaklı eğlenceli bir oyundur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Slitterhead",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Slitterhead, hızlı tempolu aksiyon ve arcade tarzı oynanışıyla öne çıkan bir oyundur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Diesel Legacy: The Brazen Age",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Diesel Legacy: The Brazen Age, sanayi devrimi atmosferinde geçen strateji ve aksiyon unsurlarını bir araya getiren bir oyundur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Path of Exile 2 Erken Erişim Destekçi Paketleri",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Path of Exile 2, derin oynanış mekanikleri ve karanlık atmosferiyle tanınan aksiyon-RPG türünde; erken erişim destekçi paketleriyle ek içerikler sunuyor.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Enotria: The Last Song",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Enotria: The Last Song, etkileyici görseller ve epik hikaye anlatımıyla öne çıkan bir macera oyunudur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Legacy of Kain™ Soul Reaver 1&2 Remastered",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Legacy of Kain™ Soul Reaver 1&2 Remastered, klasik korku ve aksiyon unsurlarını modern grafiklerle yeniden deneyimleyebileceğiniz bir remaster oyunudur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Ravenswatch",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Ravenswatch, strateji ve aksiyonu harmanlayan, karanlık atmosferde geçen sürükleyici bir savaş oyunudur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Warhammer 40,000: Rogue Trader",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Warhammer 40,000: Rogue Trader, epik uzay maceraları ve stratejik savaş unsurlarını içeren derin bir strateji oyunudur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "DYNASTY WARRIORS: ORIGINS",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "DYNASTY WARRIORS: ORIGINS, tarihi savaşların destansı bir yorumu olarak aksiyon dolu savaş deneyimleri sunar.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Star Trek: Legends",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Star Trek: Legends, uzay keşifleri ve stratejik kararların ön planda olduğu, evrenin derinliklerinde geçen bir macera oyunudur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Shadow Tactics: Aiko's Choice",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Shadow Tactics: Aiko's Choice, taktiksel düşünme ve stratejik planlamanın ön planda olduğu gizli operasyonlara dayalı bir aksiyon oyunudur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "SONIC X SHADOW GENERATIONS",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "SONIC X SHADOW GENERATIONS, yüksek hızlı aksiyon ve dinamik platform öğelerini birleştiren eğlenceli bir macera oyunudur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Kingdom Come: Deliverance II",
+    "ResimURL": "",
+    "video": "",
+    "bilgi": "Kingdom Come: Deliverance II, gerçekçi tarihsel detayları ve derin hikaye anlatımıyla öne çıkan rol yapma unsurlarını barındıran bir oyundur.",
+    "Çıkış tarihi": null,
+    "Unnamed: 5": NaN,
+    "Unnamed: 6": null,
+    "Paket": 8
+  }
+
   ]
 }
