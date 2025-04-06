@@ -3559,6 +3559,70 @@
     "Unnamed: 5": NaN,
     "Unnamed: 6": null,
     "Paket": 8
+  },
+      {
+    "OyunAdı": "Lost Records: Bloom & Rage",
+    "ResimURL": "https://example.com/images/lost-records-bloom-rage.jpg",
+    "video": "https://www.youtube.com/watch?v=lostRecordsDemo",
+    "bilgi": "Lost Records: Bloom & Rage, müzikal temalı bir aksiyon-macera oyunu olarak tasarlanmıştır.",
+    "ÇıkışTarihi": "2023-11-10",
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Like a Dragon: Pirate Yakuza in Hawaii",
+    "ResimURL": "https://example.com/images/like-a-dragon-pirate-yakuza.jpg",
+    "video": "https://www.youtube.com/watch?v=likeADragonTrailer",
+    "bilgi": "Like a Dragon: Pirate Yakuza in Hawaii, Yakuza evreninin korsan temasıyla harmanlandığı bir aksiyon-RPG oyunudur.",
+    "ÇıkışTarihi": "2024-05-15",
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Monster Hunter Wilds",
+    "ResimURL": "https://example.com/images/monster-hunter-wilds.jpg",
+    "video": "https://www.youtube.com/watch?v=monsterHunterWildsGameplay",
+    "bilgi": "Monster Hunter Wilds, popüler Monster Hunter serisinin vahşi doğada geçen yeni macerasıdır.",
+    "ÇıkışTarihi": "2023-09-20",
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Split Fiction",
+    "ResimURL": "https://example.com/images/split-fiction.jpg",
+    "video": "https://www.youtube.com/watch?v=splitFictionTeaser",
+    "bilgi": "Split Fiction, farklı evrenlerin birleştiği bir aksiyon ve hikâye odaklı macera oyunudur.",
+    "ÇıkışTarihi": "2024-01-25",
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Ubisoft+ Premium",
+    "ResimURL": "https://example.com/images/ubisoft-plus-premium.jpg",
+    "video": "https://www.youtube.com/watch?v=ubisoftPlusPremiumOverview",
+    "bilgi": "Ubisoft+ Premium, Ubisoft’un abonelik tabanlı hizmetidir; çeşitli Ubisoft oyunlarına erişim sunar.",
+    "ÇıkışTarihi": "2023-06-30",
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "The First Berserker: Khazan",
+    "ResimURL": "https://example.com/images/first-berserker-khazan.jpg",
+    "video": "https://www.youtube.com/watch?v=firstBerserkerGameplay",
+    "bilgi": "The First Berserker: Khazan, karanlık fantezi öğeleriyle bezenmiş, hack & slash tarzı bir aksiyon oyunudur.",
+    "ÇıkışTarihi": "2024-03-10",
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "Dollhouse: Behind the Broken Mirror",
+    "ResimURL": "https://example.com/images/dollhouse-behind-broken-mirror.jpg",
+    "video": "https://www.youtube.com/watch?v=dollhouseTrailer",
+    "bilgi": "Dollhouse: Behind the Broken Mirror, psikolojik korku ve bulmaca unsurlarını birleştiren atmosferik bir oyundur.",
+    "ÇıkışTarihi": "2023-12-05",
+    "Paket": 8
+  },
+  {
+    "OyunAdı": "WARRIORS: Abyss",
+    "ResimURL": "https://example.com/images/warriors-abyss.jpg",
+    "video": "https://www.youtube.com/watch?v=warriorsAbyssLaunch",
+    "bilgi": "WARRIORS: Abyss, fantezi dünyasında geçen, hızlı tempolu savaş mekaniklerine sahip bir aksiyon oyunudur.",
+    "ÇıkışTarihi": "2024-07-22",
+    "Paket": 8
   }
 
   ]
