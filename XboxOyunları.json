@@ -4025,17 +4025,157 @@
     "Paket": 8
   },
     
-{
-  "OyunAdı": "TEST",
-  "ResimURL": "https://assets-prd.ignimgs.com/2022/06/14/mikawitch-1655226833450.jpg",
-  "video": "https://youtu.be/lCIj9Jw1C4c",
-  "bilgi": "TEST",
-  "Çıkış tarihi": "2024",
-  "Unnamed: 5": null,
-  "Unnamed: 6": null,
-  "Paket": 9
-}    
-    
+  {
+    "OyunAdı": "Neverwinter Nights 1 + 2 Enhanced Collection",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/704450/header.jpg",
+    "video": "https://youtu.be/example-nwn",
+    "bilgi": "Klasik RPG serilerinin geliştirilmiş koleksiyonu. BioWare'in efsanevi D&D tabanlı rol yapma oyunları modern sistemlere uyarlanmış haliyle.",
+    "Çıkış tarihi": "2018",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "The Last Camp",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/example-lastcamp/header.jpg",
+    "video": "https://youtu.be/example-lastcamp",
+    "bilgi": "Post-apokaliptik hayatta kalma oyunu. Son kamp olarak bilinen yerde kaynakları yönetin ve hayatta kalmaya çalışın.",
+    "Çıkış tarihi": "2024",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "Black Desert: Standard Edition",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/582660/header.jpg",
+    "video": "https://youtu.be/example-blackdesert",
+    "bilgi": "Büyük açık dünya MMORPG'si. Etkileyici grafikler, karmaşık karakter özelleştirme ve aksiyonla dolu savaş sistemi.",
+    "Çıkış tarihi": "2016",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "TY the Tasmanian Tiger® HD Bundle",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/411960/header.jpg",
+    "video": "https://youtu.be/example-ty",
+    "bilgi": "Avustralyalı kaplan TY'ın 3D platform maceralarının HD koleksiyonu. Nostaljik Aussie karakteri ile eğlenceli aile oyunu.",
+    "Çıkış tarihi": "2016",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "RoboCop: Rogue City - Unfinished Business",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/1681430/header.jpg",
+    "video": "https://youtu.be/example-robocop",
+    "bilgi": "RoboCop evreninde geçen FPS aksiyon oyunu. Detroit'te suçlularla savaşırken adalet dağıtın. DLC paketi dahil.",
+    "Çıkış tarihi": "2023",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "Shadow Labyrinth Ön Siparişi",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/example-shadow/header.jpg",
+    "video": "https://youtu.be/example-shadow",
+    "bilgi": "Karanlık labirentte geçen korku-macera oyunu. Gölgeli koridorlarda gizemleri çözün ve çıkış yolunu bulun.",
+    "Çıkış tarihi": "2025",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "Party Animals",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/1260320/header.jpg",
+    "video": "https://youtu.be/example-partyanimals",
+    "bilgi": "Eğlenceli çok oyunculu party oyunu. Sevimli hayvan karakterleriyle fizik tabanlı mini oyunlar ve zorlu parkurlar.",
+    "Çıkış tarihi": "2023",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "Soulstice: Deluxe Edition",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/1251240/header.jpg",
+    "video": "https://youtu.be/example-soulstice",
+    "bilgi": "Gotik dark fantasy aksiyon RPG'si. İki kız kardeşin ruhlarının birleştiği Chimera olarak karanlık güçlere karşı savaşın.",
+    "Çıkış tarihi": "2022",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "Survivalist: Invisible Strain",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/1054340/header.jpg",
+    "video": "https://youtu.be/example-survivalist",
+    "bilgi": "Zombie salgını sonrası hayatta kalma oyunu. Topluluk kurma, kaynak yönetimi ve görünmez virüsle mücadele.",
+    "Çıkış tarihi": "2021",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "The Beast Inside (Console Version)",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/792300/header.jpg",
+    "video": "https://youtu.be/example-beast",
+    "bilgi": "Psikolojik korku oyunu. 1979 ve 1864 yılları arasında geçen paranormal hikaye. Konsol versiyonu özel optimizasyonu.",
+    "Çıkış tarihi": "2019",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "Killing Floor 3",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/example-kf3/header.jpg",
+    "video": "https://youtu.be/example-kf3",
+    "bilgi": "Kooperatif FPS hayatta kalma oyunu. Arkadaşlarınızla birlikte mutant yaratıklara karşı savaşın ve dalgalara dayanın.",
+    "Çıkış tarihi": "2025",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "Cronos: The New Dawn - Deluxe Edition",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/example-cronos/header.jpg",
+    "video": "https://youtu.be/example-cronos",
+    "bilgi": "Bilim kurgu temalı strateji RPG'si. Gelecekte zaman manipülasyonu kullanarak düşmanları yenin. Deluxe içerik dahil.",
+    "Çıkış tarihi": "2024",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "Mafia: The Old Country",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/1941540/header.jpg",
+    "video": "https://youtu.be/example-mafia",
+    "bilgi": "1900'lü yıllarda Sicilya'da geçen mafya hikayesi. Enzo Favara olarak organize suçun kökenlerini keşfedin ve hayatta kalın.",
+    "Çıkış tarihi": "2025",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "Echoes of the End",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/example-echoes/header.jpg",
+    "video": "https://youtu.be/example-echoes",
+    "bilgi": "Post-apokaliptik macera oyunu. Dünyanın sonunun yankılarını takip ederek geleceği değiştirmeye çalışın.",
+    "Çıkış tarihi": "2024",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  },
+  {
+    "OyunAdı": "Black Myth: Wukong",
+    "ResimURL": "https://cdn.akamai.steamstatic.com/steam/apps/2358720/header.jpg",
+    "video": "https://youtu.be/example-wukong",
+    "bilgi": "Çin mitolojisinde kök salış aksiyon RPG'si. Seçilmiş Kişi olarak maceralara atılın ve görkemli efsanenin ardındaki gerçeği ortaya çıkarın.",
+    "Çıkış tarihi": "2024",
+    "Unnamed: 5": null,
+    "Unnamed: 6": null,
+    "Paket": 9
+  }
+   
 
 ]
 
